@@ -1,1 +1,1 @@
-web: gunicorn tugas:tugas 
+web: gunicorn --bind=0.0.0.0 --timeout 600 tugas:app
